@@ -4,7 +4,9 @@ export default{
             method:"POST",
             path:"/image-analysis/analyze",
             handler:"imageanalysis.analyze",
-
+            config:{
+                auth: false,
+            }
         }
     ]
 }
